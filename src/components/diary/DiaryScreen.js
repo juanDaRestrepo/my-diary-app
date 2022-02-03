@@ -1,7 +1,12 @@
 import React from 'react';
+import {Sidebar} from '../diary/Sidebar';
+/* import { NothingSelected } from './NothingSelected'; */
 
 export const DiaryScreen = () => {
-  return <div>
-            <h1>DiaryScreen</h1>
+  return <div className="diary__main-content">
+            <Sidebar />
+            <main>
+                {/* <NothingSelected /> */}
+            </main>
         </div>;
 };
