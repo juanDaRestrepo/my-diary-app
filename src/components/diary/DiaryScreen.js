@@ -17,8 +17,7 @@ export const DiaryScreen = () => {
                         ?( <NoteScreen />)
                         :( <NothingSelected />)  
                     }
-                    {/* <NothingSelected /> */}
-                    <NoteScreen />
+                    
                 </main>
         </div>;
 };
