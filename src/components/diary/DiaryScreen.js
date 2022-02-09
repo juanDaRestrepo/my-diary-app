@@ -9,7 +9,7 @@ export const DiaryScreen = () => {
 
     const {active} = useSelector( state => state.notes);
 
-    return <div className="diary__main-content">
+    return <div className="diary__main-content animate__animated animate__bounce" >
                 <Sidebar />
                 <main>
                     {
